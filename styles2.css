@@ -1,0 +1,88 @@
+/* Estilo da página */
+body {
+    background-image: url('https://th.bing.com/th/id/R.881563d6444b370fa4ceea0c3183bb4c?rik=0pg4%2f%2bbHwsj5Dw&pid=ImgRaw&r=0');
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: white;
+}
+
+.form-check label {
+    color: white;
+}
+
+.terms-link {
+    margin-left: 10px;
+    color: #ffc107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.terms-link:hover {
+    text-decoration: underline;
+}
+
+.pix-card {
+    display: none;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pix-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.pix-button:hover {
+    background-color: #218838;
+}
+
+.whatsapp-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #25D366;
+    text-decoration: none;
+    border: 2px solid #25D366;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.whatsapp-link:hover {
+    background-color: #25D366;
+    color: white;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #777;
+}

@@ -1,0 +1,81 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.card {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    position: relative;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 40px; /* Ajustado para deixar espaço para o ícone de impressão */
+    cursor: pointer;
+    color: #dc3545; /* Cor vermelha para o ícone "x" */
+}
+
+.print-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Posicionado no canto superior direito */
+    cursor: pointer;
+    color: #28a745; /* Cor verde para o ícone de impressão */
+}
+
+.accept-btn {
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.timer-controls {
+    margin-top: 10px;
+}
+
+.timer-controls button {
+    margin-right: 5px;
+}
+
+.observation-container {
+    margin-top: 15px;
+}
+
+.observation-input {
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.save-observation-btn {
+    margin-top: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
